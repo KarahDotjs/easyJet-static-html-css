@@ -1,0 +1,375 @@
+ /* ----Header style ------ */
+ body, footer {
+    box-sizing: border-box;
+     font-family:"easyJet Rounded Book";
+ }
+
+ header {
+  background-image: url(/easyJet/assets/imgs/headbar.gif);
+  background-size: cover;
+  font-family: 'easyJet Rounded Demi';
+  height: 60px;
+  font-size: 16px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap:  20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header button {
+    
+    padding: 7px 10px;
+    background: #fff;
+    color: #f60;
+    margin: 0 2px 0;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.container{
+    width: 960px;
+    margin: 0px auto;
+    box-shadow: 0 0 5px lightgrey;
+
+} 
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+ 
+h1, h2 , h3 {
+    font-family: 'easyJet Rounded Demi';
+}
+
+/* ----- main ----- */
+.beach-section {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.beach-section img{
+    width: 100vw;
+    height: 650px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.beach-absolute {
+    position: absolute;
+    margin-top: 20px;
+    top: 0;
+    height: 430px;
+    width: 100vw;
+    /* border: 4px solid red; */
+   
+    
+}
+.booking-menu-container {
+    /* border: 4px solid green; */
+    height: 100%;
+  
+}
+/* .beach-section div:nth-child(2){
+    position: absolute;
+    border : 4px solid gr;
+    
+} */
+
+
+/* worldwide-default */
+
+.worldwide-default img {
+    width: 640px;
+    
+
+}
+
+.worldwide-default > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+ 
+
+.worldwide-default {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px lightgrey;
+     display: flex;
+     border-radius: 10px;
+     overflow: hidden;
+}
+.worldwide-default div{
+    padding: 10px;
+
+}
+
+.worldwide-default p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.worldwide-default button {
+    background-color: #f60;
+    border: none;
+    padding: 8px 30px;
+    color : white;
+    border-radius: 2px;
+    align-self: flex-end;
+}
+
+
+/* * ---WORLWIDE---- * */
+
+.worldwide{
+    display: flex;
+}
+
+
+
+.worldwide img {
+    /* width: 100%; */
+    height: 250px;
+    object-fit: cover;
+    object-position: right top;
+    display: block;
+}
+
+/* * WORLWIDE* */
+.worldwide2 img {
+    /* width: 100%; */
+    height: 305px;
+    object-fit: cover;
+    object-position: right top;
+    display: block;
+    
+}
+/* ------ Carrousel section ---- */
+.carrousel-section {
+    height: 380px;
+    margin-bottom: 20px ;
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+}
+
+.carrousel-card {
+    height: 370px;
+    width: 300px;
+    box-shadow: 0 0 5px lightgrey;
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.carrousel-card img{
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+.carrousel-card > div {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.carrousel-card button{
+
+    position: absolute;
+    background-color: #f60;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding: 8px 30px;
+    color : white;
+    bottom: 15px;
+    
+  
+    
+    
+}
+/* --------------Trip img---------------------- */
+.triple-imgs{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.triple-imgs > div {
+    position: relative;
+}
+
+.triple-imgs-absolute {
+    position: absolute;
+    top: 0px;
+    height: 220px;
+    width: 285px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+     
+}
+
+.triple-imgs-absolute h4 {
+    font-size: 30px;  
+}
+ .triple-imgs-absolute p {
+    font-size: 20px;
+ }
+
+
+.triple-imgs img {
+height: 220px;
+width: 280px;
+  box-shadow: 0 0 5px lightgrey;
+  border-radius: 5px;
+  display: block;
+  object-fit: cover;
+
+  
+}
+ /* .bottom-carrousel */
+.bottom-carrousel {
+    margin-bottom: 50px;
+}
+.bottom-carrousel h3 {
+    font-size: 20px;
+    margin-bottom:20px ;
+   
+    
+}
+
+.bottom-carrousel  div {
+    width: 145px;
+    height: 145px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size:  50px;
+    align-self: center;
+}
+.bottom-carrousel > menu {
+   gap: 20px;
+   display: flex;
+   overflow: scroll;
+   
+}
+
+/* --------------------------------------- */
+.carrousel-section::-webkit-scrollbar{
+  
+  display: none;
+}
+
+ .carrousel-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* ------------------------------------------------------------------------- */
+.bottom-carrousel ::-webkit-scrollbar {
+    display: none;
+}
+.bottom-carrousel {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.bottom-carrousel div:hover {
+   background-color: #f70;
+   cursor: pointer;
+}
+/* ------------------------------- */
+
+footer{
+    background-color: #f1f5f6;
+   
+    
+}
+.container {
+  box-shadow: none;
+}
+.footer-div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.footer-div li {
+    font-size: 12px;
+    line-height: 18px;
+}
+/* ----------------------------------------- */
+
+
+@media only screen and (max-width: 1200px) {
+
+header {
+  background-image: url(/easyJet/assets/imgs/headbar.gif);
+  background-size: cover;
+  font-family: 'easyJet Rounded Demi';
+  height: 60px;
+  font-size: 16px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.booking-menu-container {
+    height: 50%;
+    display: flex;
+    /* border: 2px solid red; */
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100%;
+}
+
+.beach-section img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+}

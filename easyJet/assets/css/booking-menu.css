@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "easyJet Rounded Book";
+}
+
+.booking-menu-container {
+  height: 100%;
+  display: flex;
+  /* border : 2px solid red; */
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 280px;
+  /* border: 2px solid orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+.left-column-title {
+  font-size: 50px;
+  font-family: "easyJet Headline", sans-serif;
+}
+
+.left-column > div p:nth-child(2) {
+  font-size: 50px;
+}
+
+.left-column button {
+  padding: 10px 30px;
+  background: #f60;
+  color: #fff;
+  margin: 0 2px 0;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  align-self: flex-start;
+}
+
+.beach-white-absolute {
+  position: absolute;
+  bottom: 0px;
+  height: 130px;
+  width: 100vw;
+  margin-bottom: 43px;
+  background-color: rgb(255, 255, 255, 0.7);
+  
+}
+.container-white-bar {
+  height: 100%;
+  box-sizing: border-box;
+
+}
+.offers {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.offers button {
+  padding: 10px 30px;
+  background: #f70;
+  color: #fff;
+  margin: 0 2px 0;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  align-self: flex-start;
+}
+
+/* ------------ */
+
+.booking-menu {
+  /* margin-top: 200px; */
+  height: 430px;
+  width: 300px;
+  box-shadow: 0 0 5px lightgrey;
+  padding: 12px;
+  font-size: 13px;
+  background-color: #fff;
+
+  /* margin-top: 100px; */
+}
+.checkbox {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkbox input {
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+/* ------------------ */
+.destination {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.destination-line {
+  width: 180px;
+  border-bottom: 1px solid lightgray;
+  margin: 0 auto;
+}
+
+.destination input {
+  height: 34px;
+  border: none;
+}
+
+/* ---------------------- */
+
+.date-picker {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #f70;
+}
+
+.date-picker > div:nth-child(2) {
+  width: 180px;
+  border-bottom: 1px solid lightgray;
+  margin: 0 auto;
+}
+.date-picker > div:nth-child(odd) {
+  padding: 7px;
+  display: flex;
+  gap: 5px;
+}
+/* ------------ */
+
+.quantity div {
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: #f70;
+}
+.counter-div {
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  background-color: unset;
+  border: none;
+  font-size: 20px;
+}
+.quantity > div span {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  width: 30px;
+  text-align: center;
+}
+
+/* ----------- */
+.booking-menu > button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #f60;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.booking-menu-bottom {
+  color: #f70;
+}
+.booking-menu-bottom p:first-child {
+  margin-bottom: 10px;
+}
